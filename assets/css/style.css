@@ -1,0 +1,112 @@
+body {
+    background-image: url("../images/flat-earth-1.jpg");  
+    background-size: 100%;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.start {
+    margin-top: 75px;
+    height: 40px;
+    width: 200px;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+.hide {
+    display: none;
+    
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.unhide {
+    display: flex;
+}
+.title {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 75px;
+    color: red;
+}
+
+.sub-title {
+    font-weight: bold;
+    
+}
+
+#remaining {
+    color: red;
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    
+   
+}
+
+.countdown {
+    color: black;
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: normal;
+    
+}
+
+.true-false {
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.questions {
+    margin-top: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    
+
+}
+
+#true {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+#false {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.answer-check {
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(240, 236, 236);
+    font-weight: bolder;
+}
+
+.answer-image {
+    margin-top: 10px;
+   
+}
+
+.wrong {
+    background-color: red;
+}
+
+.right {
+    background-color: green;
+}
